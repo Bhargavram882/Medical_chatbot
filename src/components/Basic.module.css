@@ -1,0 +1,43 @@
+.background{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+}
+.chatArea {
+   height: calc(100vh - 8em);
+   overflow-y: scroll;
+   background-image: url("../tiny-woman-using-mobile-assistant-with-chatbot_74855-7883.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   /* background-position: ; */
+}
+.card{
+    height: 100%;
+    /* max-height: em; */
+    /* overflow: hidden; */
+    /* margin-bottom: 20%; */
+}   
+.leftCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-weight: bold;
+    /* max-width: 70%; */
+}
+.rightCard{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
+    /* font-weight: bold; */
+    /* max-width: 70%; */
+}
+
+.message {
+    max-width: 45vw;
+    word-wrap: break-word;
+    margin-left: 1em;
+}
+.input{
+    width: 100%;
+}
