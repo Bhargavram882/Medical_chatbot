@@ -1,0 +1,8 @@
+{
+    "sentence":"I have leg pain"
+}
+
+{
+
+	"symptoms":["weight_loss","restlessness","lethargy","irregular_sugar_level","blurred_and_distorted_vision","obesity","excessive_hunger","increased_appetite","polyuria"]
+}
